@@ -35,7 +35,7 @@ const AvailableMeals = () => {
     };
 
     try {
-     await fetchMeals();
+      fetchMeals();
     } catch (error) {
       setIsLoading(false);
       setHttpError(error.message);
